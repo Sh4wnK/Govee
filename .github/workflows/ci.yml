@@ -14,11 +14,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
-          cache-dependency-path: |
-            go.sum
-            examples/basic/go.sum
-            examples/lanctl/go.sum
-            cmd/govee/go.sum
+          cache: false # stdlib-only module, no go.sum
 
       - name: Vet
         run: go vet ./...
@@ -26,9 +22,5 @@ jobs:
       - name: Test (with race detector)
         run: go test -race ./...
 
-      - name: Build examples and CLI
-        run: |
-          go build ./...
-          (cd examples/basic && go build ./...)
-          (cd examples/lanctl && go build ./...)
-          (cd cmd/govee && go build ./...)
+      - name: Build CLI and examples
+        run: go build ./...
