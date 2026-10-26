@@ -1,0 +1,32 @@
+{
+  "requestId": "242d4315-87f4-4ac7-a3a1-5ab81b6b7f9a",
+  "msg": "success",
+  "code": 200,
+  "payload": {
+    "sku": "H6057",
+    "device": "2F:56:C1:9A:7C:E8:5B:19",
+    "capabilities": [
+      {
+        "type": "devices.capabilities.dynamic_scene",
+        "instance": "lightScene",
+        "parameters": {
+          "dataType": "ENUM",
+          "options": [
+            { "name": "Sunrise", "value": { "paramId": 4280, "id": 3853 } },
+            { "name": "Sunset", "value": { "paramId": 4281, "id": 3854 } },
+            { "name": "Sunset Glow", "value": { "paramId": 4282, "id": 3855 } },
+            { "name": "Spring", "value": { "paramId": 4283, "id": 3856 } },
+            { "name": "Aurora", "value": { "paramId": 4284, "id": 3857 } },
+            { "name": "Rainbow", "value": { "paramId": 4285, "id": 3858 } },
+            { "name": "Forest", "value": { "paramId": 4286, "id": 3859 } },
+            { "name": "Ocean", "value": { "paramId": 4287, "id": 3860 } },
+            { "name": "Snowing", "value": { "paramId": 4288, "id": 3861 } },
+            { "name": "Fire", "value": { "paramId": 4292, "id": 3865 } },
+            { "name": "Waterfall", "value": { "paramId": 4293, "id": 3866 } },
+            { "name": "Gradient", "value": { "paramId": 4310, "id": 3883 } }
+          ]
+        }
+      }
+    ]
+  }
+}

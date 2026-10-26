@@ -1,0 +1,13 @@
+# Binaries
+/govee
+/cmd/govee/govee
+/examples/basic/basic
+/examples/lanctl/lanctl
+*.exe
+*.test
+*.out
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,31 @@
+{
+  "requestId": "9f9d1c70-1c50-4a1f-bcaf-57cae2e4f2d2",
+  "msg": "success",
+  "code": 200,
+  "payload": {
+    "sku": "H5140",
+    "device": "FD:C8:DC:1E:D5:51:65:24",
+    "capabilities": [
+      {
+        "type": "devices.capabilities.online",
+        "instance": "online",
+        "state": { "value": true }
+      },
+      {
+        "type": "devices.capabilities.property",
+        "instance": "carbonDioxideConcentration",
+        "state": { "value": 1590 }
+      },
+      {
+        "type": "devices.capabilities.property",
+        "instance": "sensorTemperature",
+        "state": { "value": 79.52 }
+      },
+      {
+        "type": "devices.capabilities.property",
+        "instance": "sensorHumidity",
+        "state": { "value": 61.2 }
+      }
+    ]
+  }
+}
